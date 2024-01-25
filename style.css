@@ -29,14 +29,12 @@ nav h2{
 }
 nav span{
     color: var(--Blue-dark-400, #528BFF);
-/* f: 1.5rem; */
+font-size: 1.5rem;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-nav h2 img{
-    margin-right: 0.625rem;
-}
+
 
 aside{
     display: flex;
@@ -61,7 +59,7 @@ li{
     color: var(--Gray-600, #475467);
 
 /* Text lg/Semibold */
-/* f: 1.125rem; */
+font-size: 1.125rem;
 font-style: normal;
 font-weight: 600;
 line-height: 1.75rem; /* 155.556% */
@@ -69,10 +67,6 @@ line-height: 1.75rem; /* 155.556% */
 
 #sec-1{
     background: url(images/backgroundpattern-c0621009.png);
-    /* display: flex;
-    width: 88rem;
-    justify-content: space-between;
-    align-items: center; */
     display: inline-flex;
     padding: 2.5rem 5rem 6rem 5rem;
     flex-direction: column;
@@ -93,8 +87,14 @@ line-height: 1.75rem; /* 155.556% */
 font-size: 1.125rem;
 font-style: normal;
 font-weight: 600;
-line-height: 1.75rem; /* 155.556% */
-    
+line-height: 1.75rem; /* 155.556% */  
+}
+
+.logo{
+    display: flex;
+}
+.logo img{
+    margin-right: 0.625rem;
 }
 
 .section-content {
